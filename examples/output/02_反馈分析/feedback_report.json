@@ -1,0 +1,87 @@
+{
+  "input": {
+    "file": "02_培训反馈.csv",
+    "sha256": "0727a614b52a93a2a88c79c52e289c4246dda742103c4c9597b0a7c6d93bc2c8",
+    "encoding": "utf-8-sig"
+  },
+  "scope": {
+    "score_column": "满意度",
+    "minimum": "1",
+    "maximum": "5",
+    "single_choice_column": "想学内容",
+    "delimiter": "comma",
+    "row_semantics": "one CSV record; no automatic deduplication"
+  },
+  "total_records": 12,
+  "score": {
+    "status_counts": {
+      "valid": 9,
+      "blank": 1,
+      "non_numeric": 1,
+      "non_finite": 0,
+      "out_of_range": 1
+    },
+    "finite_numeric_count_before_range_check": 10,
+    "finite_numeric_sum_before_range_check": "43",
+    "finite_numeric_mean_before_range_check": "4.3",
+    "valid_count": 9,
+    "valid_sum": "34",
+    "valid_mean": "3.777777777777777777777777778",
+    "valid_mean_rounded": "3.78",
+    "finite_numeric_mean_before_range_check_rounded": "4.30"
+  },
+  "single_choice": {
+    "nonempty_count": 11,
+    "blank_count": 1,
+    "counting_mode": "literal_whole_value",
+    "suspected_multi_choice_values": [],
+    "items": [
+      {
+        "value": "表格",
+        "count": 5,
+        "all_records_denominator": 12,
+        "percent_of_all_records": "41.66666666666666666666666667",
+        "nonempty_denominator": 11,
+        "percent_of_nonempty": "45.45454545454545454545454545",
+        "percent_rounded": {
+          "of_all_records": "41.7",
+          "of_nonempty": "45.5"
+        },
+        "suspected_multi_choice": false
+      },
+      {
+        "value": "写作",
+        "count": 4,
+        "all_records_denominator": 12,
+        "percent_of_all_records": "33.33333333333333333333333333",
+        "nonempty_denominator": 11,
+        "percent_of_nonempty": "36.36363636363636363636363636",
+        "percent_rounded": {
+          "of_all_records": "33.3",
+          "of_nonempty": "36.4"
+        },
+        "suspected_multi_choice": false
+      },
+      {
+        "value": "资料",
+        "count": 2,
+        "all_records_denominator": 12,
+        "percent_of_all_records": "16.66666666666666666666666667",
+        "nonempty_denominator": 11,
+        "percent_of_nonempty": "18.18181818181818181818181818",
+        "percent_rounded": {
+          "of_all_records": "16.7",
+          "of_nonempty": "18.2"
+        },
+        "suspected_multi_choice": false
+      }
+    ]
+  },
+  "duplicate_ids": {},
+  "warnings": [],
+  "limits": [
+    "不推断量表、不修复原始数据、不自动去重",
+    "选项单独统计，不因评分无效而删除该行选项",
+    "未提供参训总数，不计算回收率"
+  ]
+}

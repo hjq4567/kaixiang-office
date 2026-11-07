@@ -1,0 +1,13 @@
+record,id,raw_score,status,numeric_score
+1,A01,5,valid,5
+2,A02,4,valid,4
+3,A03,3,valid,3
+4,A04,5,valid,5
+5,A05,4,valid,4
+6,A06,,blank,
+7,A07,9,out_of_range,9
+8,A08,待核,non_numeric,
+9,A09,2,valid,2
+10,A10,4,valid,4
+11,A11,3,valid,3
+12,A12,4,valid,4

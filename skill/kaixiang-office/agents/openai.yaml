@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI开箱办·办公整理助手"
+  short_description: "按需整理周报、反馈表、方案、票据与流程，保留待确认事项和核对依据"
+  default_prompt: "请用 $kaixiang-office 处理我的办公材料，先确定任务，再读取对应参考。"

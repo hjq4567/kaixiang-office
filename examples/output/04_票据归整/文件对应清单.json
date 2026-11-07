@@ -1,0 +1,57 @@
+[
+  {
+    "original": "附件一.txt",
+    "copy": "整理副本/普通待核对/2026-11-02_青云办公_DEMO-T001_200.00.txt",
+    "group": "普通待核对",
+    "date": "2026-11-02",
+    "vendor": "青云办公",
+    "number": "DEMO-T001",
+    "amount": "200.00",
+    "duplicate_of": null,
+    "sha256": "03e94ee77a850c92b791ef0dbefe23cc918f8aaafb5d2d177ed24dfa94586bb6"
+  },
+  {
+    "original": "下载.txt",
+    "copy": "整理副本/普通待核对/2026-11-03_城北打印_DEMO-T002_120.00.txt",
+    "group": "普通待核对",
+    "date": "2026-11-03",
+    "vendor": "城北打印",
+    "number": "DEMO-T002",
+    "amount": "120.00",
+    "duplicate_of": null,
+    "sha256": "f18578a74b3c7971acdbab82dfdff702e45b1d0f56035e3e1ddb5f976cb25430"
+  },
+  {
+    "original": "下载副本.txt",
+    "copy": "整理副本/重复文件/2026-11-03_城北打印_DEMO-T002_120.00.txt",
+    "group": "重复文件",
+    "date": "2026-11-03",
+    "vendor": "城北打印",
+    "number": "DEMO-T002",
+    "amount": "120.00",
+    "duplicate_of": "下载.txt",
+    "sha256": "f18578a74b3c7971acdbab82dfdff702e45b1d0f56035e3e1ddb5f976cb25430"
+  },
+  {
+    "original": "待核.txt",
+    "copy": "整理副本/日期待核/日期待核_白桦会务_DEMO-T003_75.00.txt",
+    "group": "日期待核",
+    "date": "日期待核",
+    "vendor": "白桦会务",
+    "number": "DEMO-T003",
+    "amount": "75.00",
+    "duplicate_of": null,
+    "sha256": "2369d4626bc7a25d5f5b6deeffe3361999fa00aa387daa7ea55c98f457d97641"
+  },
+  {
+    "original": "作废.txt",
+    "copy": "整理副本/作废/2026-11-04_云端软件_DEMO-T004_45.00.txt",
+    "group": "作废",
+    "date": "2026-11-04",
+    "vendor": "云端软件",
+    "number": "DEMO-T004",
+    "amount": "45.00",
+    "duplicate_of": null,
+    "sha256": "d20ff2dbfa481b082c7b9e9275a28b40ac29c5aaeae77ef99ffbd41cdaa94aac"
+  }
+]
