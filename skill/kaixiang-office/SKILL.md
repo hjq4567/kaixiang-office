@@ -3,7 +3,7 @@ name: kaixiang-office
 description: 整理工作记录为周报、核查反馈CSV、共写活动方案、归整票据附件或梳理办事流程。适合已有材料需要转成可核对办公草稿的任务；不用于一般闲聊、任意表格建模或发票验真。
 license: Apache-2.0
 metadata:
-  version: "0.1.2"
+  version: "0.1.3"
 ---
 
 # AI开箱办·办公整理助手
